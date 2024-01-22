@@ -44,7 +44,7 @@ const Services = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img
-            src="https://res-console.cloudinary.com/dlhbc051y/media_explorer_thumbnails/15fa157c9f5c04f96a1cd2fdcb90de34/detailed"
+            src="https://res.cloudinary.com/dlhbc051y/image/upload/v1705961129/lycee/qlrakinemjgw9stmdik6.png"
             alt=""
           />
           <h1>
