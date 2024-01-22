@@ -43,7 +43,10 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.png" alt="" />
+          <img
+            src="https://scontent.frak1-1.fna.fbcdn.net/v/t39.30808-6/382781849_271874605734657_7523889943963624581_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=3yeQ866eMHwAX_bjHT2&_nc_ht=scontent.frak1-1.fna&oh=00_AfAOU4dfnX2SSPJ6rdsCnuu-SXUJC1JsREfDVZMCJfVGnA&oe=65B3811B"
+            alt=""
+          />
           <h1>
             <motion.b whileHover={{ color: "orange" }}>فريدة من نوعها</motion.b>{" "}
             أفكار
