@@ -52,7 +52,7 @@ const Hero = () => {
           <motion.img
             variants={textVariants}
             animate="scrollButton"
-            src="/scroll.png"
+            src="https://res-console.cloudinary.com/dlhbc051y/media_explorer_thumbnails/de8b113e651d3ea3f851359494cf9e03/detailed"
             alt=""
           />
         </motion.div>
@@ -66,7 +66,10 @@ const Hero = () => {
         Writer Content Creator Influencer
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img
+          src="https://res-console.cloudinary.com/dlhbc051y/media_explorer_thumbnails/46212c7931a2f3033dd0858e04174e8f/detailed"
+          alt=""
+        />
       </div>
     </div>
   );

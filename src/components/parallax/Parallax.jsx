@@ -33,7 +33,9 @@ const Parallax = ({ type }) => {
         style={{
           y: yBg,
           backgroundImage: `url(${
-            type === "services" ? "/planets.png" : "/sun.png"
+            type === "services"
+              ? "https://res-console.cloudinary.com/dlhbc051y/media_explorer_thumbnails/5ff13d3b41e7e11a9276054302401e85/detailed"
+              : "https://res-console.cloudinary.com/dlhbc051y/media_explorer_thumbnails/14ea771a400e0ff6696fa25b12a7262c/detailed"
           })`,
         }}
       ></motion.div>
