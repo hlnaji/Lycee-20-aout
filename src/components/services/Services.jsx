@@ -44,7 +44,7 @@ const Services = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img
-            src="https://res.cloudinary.com/dlhbc051y/image/upload/v1705961129/lycee/qlrakinemjgw9stmdik6.png"
+            src="https://scontent.frak1-1.fna.fbcdn.net/v/t39.30808-6/311860975_100883949503083_6051898859928152251_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=NJ1C8OxBrUMAX8VkMU3&_nc_ht=scontent.frak1-1.fna&oh=00_AfDIh_EP7bOmzABsAjmy5yFgbRn_bC6cOToR1Bdj4k6cwQ&oe=65B33D1A"
             alt=""
           />
           <h1>
@@ -64,53 +64,45 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>TanTan</h2>
+          <h2>محمد علي الكرش</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            عندما تتحدث عن المؤسسة الثانوية عشرين غشت ، فإن أدوار المدير والمعلم
+            والطالب تأخذ أهمية كبيرة في تسيير ونجاح هذا الفضاء التعليمي المميز
           </p>
-          <button>Lycee 20 Aout</button>
+          <button>ثانوية 20 غشت</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>TanTan</h2>
+          <h2>التعليم</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            يعتبر المدير المسؤول الرئيسي عن إدارة المؤسسة، حيث يتولى مهام تنظيم
+            الجدول الزمني وتحديد الاحتياجات المالية وتوجيه السياسات التعليمية.
           </p>
-          <button>Lycee 20 Aout</button>
+          <button>ثانوية 20 غشت</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>TanTan</h2>
+          <h2>بيئة مشتركة</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            تعتبر المؤسسة الثانوية بيئة مشتركة يتعاون فيها المدير والمعلم
+            والطالب لضمان تجربة تعليمية ناجحة ومثمرة.
           </p>
-          <button>Lycee 20 Aout</button>
+          <button>ثانوية 20 غشت</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>TanTan</h2>
+          <h2>العمل الاجتماعي</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            إن الدور المنسجم بين هؤلاء الفاعلين الرئيسيين يساهم في تحقيق أهداف
+            المؤسسة وتطوير مستقبل الطلاب.
           </p>
-          <button>Lycee 20 Aout</button>
+          <button>ثانوية 20 غشت</button>
         </motion.div>
       </motion.div>
     </motion.div>

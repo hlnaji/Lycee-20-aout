@@ -47,7 +47,9 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h1 variants={textVariants}>Lycee 20 Aout TanTan</motion.h1>
+          <motion.h1 variants={textVariants}>
+            ثانوية 20 غشت التأهيلية بطانطان
+          </motion.h1>
 
           <motion.img
             variants={textVariants}
@@ -63,7 +65,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+        ثانوية 20 غشت التأهيلية بطانطان
       </motion.div>
       <div className="imageContainer">
         <img

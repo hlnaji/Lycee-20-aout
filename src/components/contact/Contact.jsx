@@ -35,10 +35,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_zfqxk8v",
+        "template_w4g5t8l",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "JU3anIxpzKzFd_qjO"
       )
       .then(
         (result) => {
@@ -59,26 +59,26 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>تواصل معنا الآن</motion.h1>
+        <motion.h1 variants={variants}>تواصل معنا </motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
+          <h2>البريد الإلكتروني</h2>
           <span>lycee20aout.tantan@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Address</h2>
-          <span>TanTan Hay Sahara</span>
+          <h2>العنوان</h2>
+          <span>طانطان حي الصحراء</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Phone</h2>
-          <span>+212 646717149</span>
+          <h2>الهاتف</h2>
+          <span>0646717149</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <div className="social">
-            <h2>Team</h2>
+            <h2>من أنشأ هذا الموقع؟</h2>
             <p id="love">
-              Made with{" "}
-              <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} /> by
-              Hamza Labbaalli & Wissal Wargui
+              صُنع بـ{" "}
+              <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} /> بواسطة
+              حمزة لباعلي ووصال ورگي
             </p>
             <a
               href="https://github.com/hlnaji"
@@ -91,7 +91,6 @@ const Contact = () => {
                 style={{ color: "dodgerblue" }}
               />
             </a>
-
             <a
               href="https://github.com/hlnaji"
               target="_blank"
@@ -122,6 +121,7 @@ const Contact = () => {
           </div>
         </motion.div>
       </motion.div>
+
       <div className="formContainer">
         <motion.div
           className="phoneSvg"
@@ -168,8 +168,8 @@ const Contact = () => {
           />
           <textarea rows={8} placeholder="رسالتك" name="message" />
           <button>ارسل</button>
-          {error && "Error"}
-          {success && "Success"}
+          {error && "فشل إرسال"}
+          {success && "أرسلت بنجاح"}
         </motion.form>
       </div>
     </motion.div>

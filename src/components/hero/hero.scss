@@ -64,7 +64,7 @@
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
 
     @include mobile {
       height: 50%;
@@ -73,7 +73,7 @@
       bottom: 0;
     }
 
-    img{
+    img {
       width: 100%;
       height: 100%;
       object-fit: cover;
