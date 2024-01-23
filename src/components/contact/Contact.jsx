@@ -2,6 +2,10 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import "@fortawesome/fontawesome-free/css/all.css"; // Import the Font Awesome CSS
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Use free-solid-svg-icons for solid icons
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const variants = {
   initial: {
@@ -38,7 +42,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          setSuccess(true)
+          setSuccess(true);
         },
         (error) => {
           setError(true);
@@ -55,18 +59,67 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let’s work together</motion.h1>
+        <motion.h1 variants={variants}>تواصل معنا الآن</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <span>lycee20aout.tantan@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Hello street New York</span>
+          <span>TanTan Hay Sahara</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>+1 234 5678</span>
+          <span>+212 646717149</span>
+        </motion.div>
+        <motion.div className="item" variants={variants}>
+          <div className="social">
+            <h2>Team</h2>
+            <p id="love">
+              Made with{" "}
+              <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} /> by
+              Hamza Labbaalli & Wissal Wargui
+            </p>
+            <a
+              href="https://github.com/hlnaji"
+              target="_blank"
+              className="icon-link"
+              style={{ margin: "3px" }}
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                style={{ color: "dodgerblue" }}
+              />
+            </a>
+
+            <a
+              href="https://github.com/hlnaji"
+              target="_blank"
+              className="icon-link"
+              style={{ margin: "3px" }}
+            >
+              <FontAwesomeIcon icon={faGithub} style={{ color: "pink" }} />
+            </a>
+            <a
+              href="https://linkedin.com/in/hlnaji/"
+              target="_blank"
+              className="icon-link"
+              style={{ margin: "3px" }}
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                style={{ color: "dodgerblue" }}
+              />
+            </a>
+            <a
+              href="https://ma.linkedin.com/in/wissal-wargui-0b5149260"
+              target="_blank"
+              className="icon-link"
+              style={{ margin: "3px" }}
+            >
+              <FontAwesomeIcon icon={faLinkedin} style={{ color: "pink" }} />
+            </a>
+          </div>
         </motion.div>
       </motion.div>
       <div className="formContainer">
@@ -106,10 +159,15 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
-          <button>Submit</button>
+          <input type="text" required placeholder="اسمك الكامل" name="name" />
+          <input
+            type="email"
+            required
+            placeholder="بريدك الالكتروني"
+            name="email"
+          />
+          <textarea rows={8} placeholder="رسالتك" name="message" />
+          <button>ارسل</button>
           {error && "Error"}
           {success && "Success"}
         </motion.form>

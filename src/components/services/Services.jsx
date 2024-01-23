@@ -48,8 +48,8 @@ const Services = () => {
             alt=""
           />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>فريدة من نوعها</motion.b>{" "}
-            أفكار
+            <motion.b whileHover={{ color: "orange" }}> أفكار </motion.b> فريدة
+            من نوعها
           </h1>
         </div>
         <div className="title">
@@ -64,53 +64,53 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>TanTan</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?
           </p>
-          <button>Go</button>
+          <button>Lycee 20 Aout</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>TanTan</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?
           </p>
-          <button>Go</button>
+          <button>Lycee 20 Aout</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>TanTan</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?
           </p>
-          <button>Go</button>
+          <button>Lycee 20 Aout</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>TanTan</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?
           </p>
-          <button>Go</button>
+          <button>Lycee 20 Aout</button>
         </motion.div>
       </motion.div>
     </motion.div>
