@@ -92,7 +92,7 @@ const Contact = () => {
               />
             </a>
             <a
-              href="https://github.com/hlnaji"
+              href="https://github.com/dvwissal"
               target="_blank"
               className="icon-link"
               style={{ margin: "3px" }}
@@ -153,6 +153,7 @@ const Contact = () => {
           </svg>
         </motion.div>
         <motion.form
+          className="form"
           ref={formRef}
           onSubmit={sendEmail}
           initial={{ opacity: 0 }}
@@ -166,7 +167,7 @@ const Contact = () => {
             placeholder="بريدك الالكتروني"
             name="email"
           />
-          <textarea rows={8} placeholder="رسالتك" name="message" />
+          <textarea rows={3} placeholder="رسالتك" name="message" />
           <button>ارسل</button>
           {error && "فشل إرسال"}
           {success && "أرسلت بنجاح"}
