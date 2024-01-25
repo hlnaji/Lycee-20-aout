@@ -2,11 +2,7 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import "@fortawesome/fontawesome-free/css/all.css"; // Import the Font Awesome CSS
-
-// import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaHeart, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const variants = {
   initial: {
@@ -77,9 +73,8 @@ const Contact = () => {
           <div className="social">
             <h2>من أنشأ هذا الموقع؟</h2>
             <p id="love">
-              صُنع بـ{" "}
-              <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} /> بواسطة
-              حمزة لباعلي ووصال ورگي
+              صُنع بـ <FaHeart style={{ color: "red" }} /> بواسطة حمزة لباعلي
+              ووصال ورگي
             </p>
             <a
               href="https://github.com/hlnaji"
@@ -87,10 +82,7 @@ const Contact = () => {
               className="icon-link"
               style={{ margin: "3px" }}
             >
-              <FontAwesomeIcon
-                icon={faGithub}
-                style={{ color: "dodgerblue" }}
-              />
+              <FaGithub style={{ color: "dodgerblue" }} />
             </a>
             <a
               href="https://github.com/dvwissal"
@@ -98,7 +90,7 @@ const Contact = () => {
               className="icon-link"
               style={{ margin: "3px" }}
             >
-              <FontAwesomeIcon icon={faGithub} style={{ color: "pink" }} />
+              <FaGithub style={{ color: "pink" }} />
             </a>
             <a
               href="https://linkedin.com/in/hlnaji/"
@@ -106,10 +98,7 @@ const Contact = () => {
               className="icon-link"
               style={{ margin: "3px" }}
             >
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                style={{ color: "dodgerblue" }}
-              />
+              <FaLinkedin style={{ color: "dodgerblue" }} />
             </a>
             <a
               href="https://ma.linkedin.com/in/wissal-wargui-0b5149260"
@@ -117,7 +106,7 @@ const Contact = () => {
               className="icon-link"
               style={{ margin: "3px" }}
             >
-              <FontAwesomeIcon icon={faLinkedin} style={{ color: "pink" }} />
+              <FaLinkedin style={{ color: "pink" }} />
             </a>
           </div>
         </motion.div>
