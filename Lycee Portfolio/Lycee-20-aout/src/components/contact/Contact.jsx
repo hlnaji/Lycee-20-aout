@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import "@fortawesome/fontawesome-free/css/all.css"; // Import the Font Awesome CSS
+import "@fortawesome/fontawesome-free/css/all.css";
 
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
