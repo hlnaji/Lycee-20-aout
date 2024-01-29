@@ -84,14 +84,7 @@ const Contact = () => {
             >
               <FaGithub style={{ color: "dodgerblue" }} />
             </a>
-            <a
-              href="https://github.com/dvwissal"
-              target="_blank"
-              className="icon-link"
-              style={{ margin: "3px" }}
-            >
-              <FaGithub style={{ color: "pink" }} />
-            </a>
+
             <a
               href="https://linkedin.com/in/hlnaji/"
               target="_blank"
@@ -99,14 +92,6 @@ const Contact = () => {
               style={{ margin: "3px" }}
             >
               <FaLinkedin style={{ color: "dodgerblue" }} />
-            </a>
-            <a
-              href="https://ma.linkedin.com/in/wissal-wargui-0b5149260"
-              target="_blank"
-              className="icon-link"
-              style={{ margin: "3px" }}
-            >
-              <FaLinkedin style={{ color: "pink" }} />
             </a>
           </div>
         </motion.div>

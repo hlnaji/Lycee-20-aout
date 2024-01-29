@@ -44,7 +44,7 @@ const Services = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img
-            src="https://scontent.frak1-1.fna.fbcdn.net/v/t39.30808-6/311860975_100883949503083_6051898859928152251_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=NJ1C8OxBrUMAX8VkMU3&_nc_ht=scontent.frak1-1.fna&oh=00_AfDIh_EP7bOmzABsAjmy5yFgbRn_bC6cOToR1Bdj4k6cwQ&oe=65B33D1A"
+            src="https://res.cloudinary.com/dlhbc051y/image/upload/v1706560945/lycee/yx3iabq7vftfc4dxgpb0.jpg"
             alt=""
           />
           <h1>
